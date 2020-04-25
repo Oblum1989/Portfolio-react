@@ -1,5 +1,11 @@
 import React from 'react';
 import '../assets/styles/components/Portfolio.css';
+import Proy1 from '../assets/static/img/proy1.png';
+import Proy2 from '../assets/static/img/proy2.png';
+import Proy3 from '../assets/static/img/proy3.png';
+import Proy4 from '../assets/static/img/proy4.png';
+import Proy5 from '../assets/static/img/proy5.png';
+import Proy6 from '../assets/static/img/proy6.png';
 
 const Portfolio = () => (
   <div id="tf-portfolio">
@@ -11,7 +17,7 @@ const Portfolio = () => (
       <div className="row">
         <div className="col-md-4">
           <div className="proyecto">
-            <img src="img/proy1.png" className="img-responsive" alt='#' />
+            <img src={Proy1} className="img-responsive" alt='#' />
             <div className="proy-description">
               <p>Network diseño de Apps para empresa</p>
             </div>
@@ -20,7 +26,7 @@ const Portfolio = () => (
 
         <div className="col-md-4">
           <div className="proyecto">
-            <img src="img/proy2.png" className="img-responsive" alt='#' />
+            <img src={Proy2} className="img-responsive" alt='#' />
             <div className="proy-description">
               <p>StudioDev creación de aplicaciones </p>
             </div>
@@ -29,7 +35,7 @@ const Portfolio = () => (
 
         <div className="col-md-4">
           <div className="proyecto">
-            <img src="img/proy3.png" className="img-responsive" alt='#' />
+            <img src={Proy3} className="img-responsive" alt='#' />
             <div className="proy-description">
               <p>SuperBlog - Blog creado con Rails</p>
             </div>
@@ -40,7 +46,7 @@ const Portfolio = () => (
       <div className="row toppadding">
         <div className="col-md-4">
           <div className="proyecto">
-            <img src="img/proy4.png" className="img-responsive" alt='#' />
+            <img src={Proy4} className="img-responsive" alt='#' />
             <div className="proy-description">
               <p>Aplicacion en Rails clon de Stack OverFlow</p>
             </div>
@@ -49,7 +55,7 @@ const Portfolio = () => (
 
         <div className="col-md-4">
           <div className="proyecto">
-            <img src="img/proy5.png" className="img-responsive" alt='#' />
+            <img src={Proy5} className="img-responsive" alt='#' />
             <div className="proy-description">
               <p>PetShop Baco - Ecommerce para una veterinaria</p>
             </div>
@@ -58,7 +64,7 @@ const Portfolio = () => (
 
         <div className="col-md-4">
           <div className="proyecto">
-            <img src="img/proy6.png" className="img-responsive" alt='#' />
+            <img src={Proy6} className="img-responsive" alt='#' />
             <div className="proy-description">
               <p>Ecommerce ejercicio practico en Bootstrap</p>
             </div>

@@ -15,6 +15,7 @@ const Skills = () => (
       <div className="col-md-4">
 
         <div className="media">
+          https://www.youtube.com/watch?v=W-uyoWE2-eM
         </div>
 
       </div>
